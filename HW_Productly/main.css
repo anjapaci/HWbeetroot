@@ -72,3 +72,43 @@ main > div {
     margin: 0 auto;
     vertical-align: middle;
 }
+main > div > a button {
+    background-color: #FF9900;
+    outline: none;
+    border: none;
+    color: #FF9900;
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+main > div:first-child > div > button {
+    background-color: #FF9900;
+    outline: none;
+    border: none;
+    color: #F2F2F2; 
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+
+a.watch-video {
+    display: inline-flex; 
+    align-items: center; 
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    color: #FF9900; 
+    text-decoration: none; 
+}
+
+a.watch-video img {
+    margin-right: 8px; 
+}
+
+a.watch-video span {
+    color: #FF9900; 
