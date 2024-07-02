@@ -113,3 +113,27 @@ a.watch-video img {
 a.watch-video span {
     color: #FF9900; 
 }
+.middle-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.middle-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.icon {
+    width: 51px;
+    height: 50px;
+    background-color: #ddd; /* Placeholder color */
+    border-radius: 5px;
+}
